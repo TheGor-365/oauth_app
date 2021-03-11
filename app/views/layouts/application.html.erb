@@ -11,6 +11,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/nav' %>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <p class="text-success"><%= notice %></p>
+          <p class="text-danger"><%= alert %></p>
+
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
