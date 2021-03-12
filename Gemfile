@@ -12,7 +12,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'omniauth'
-gem 'omniauth-canvas'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
+gem 'activerecord-session_store'
 gem 'devise'
 
 group :development, :test do
